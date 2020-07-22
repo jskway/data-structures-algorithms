@@ -104,7 +104,13 @@ dist
 .tern-port
 /package-lock.json
 
+# MacOS
 .DS_Store
+
+# Vim
 *.swp
 *.swo
 *.swn
+
+# Python
+*.pyc
