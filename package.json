@@ -1,0 +1,22 @@
+{
+  "name": "coding-challenges",
+  "version": "1.0.0",
+  "description": "Coding challenges and solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jskway/coding-challenges.git"
+  },
+  "author": "Jack Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jskway/coding-challenges/issues"
+  },
+  "homepage": "https://github.com/jskway/coding-challenges#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
