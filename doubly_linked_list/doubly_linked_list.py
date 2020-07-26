@@ -55,6 +55,7 @@ class DoublyLinkedList:
 
         return middle
 
+    """ Returns the highest value in the list"""
     def get_max(self):
         max_value = 0
         node = self.head
@@ -66,6 +67,8 @@ class DoublyLinkedList:
 
         return max_value
 
+    """ Takes a reference to a node in the list and removes it
+    from the list"""
     def delete(self, node):
         # If list is empty
         if self.head is None:
@@ -94,6 +97,8 @@ class DoublyLinkedList:
 
         self.length -=1
 
+    """Wraps the given value in a ListNode and inserts it
+    as the new head of the list."""
     def add_to_head(self, value):
         new_node = ListNode(value, None, None)
         self.length += 1
@@ -106,9 +111,32 @@ class DoublyLinkedList:
             self.head = new_node
             self.tail = new_node
 
+    """Removes the head node and returns the value stored
+    in it"""
     def remove_from_head(self):
-        pass
+        # Check if there is a head
+        if self.head is None:
+            return None
 
+        # Store the current head
+        current_head = self.head
+
+        # If there's at least two nodes
+        if self.head.next:
+            self.head = self.head.next
+            self.head.previous = None
+
+        # If there is only one node
+        else:
+            self.head = None
+            self.tail = None
+
+        self.length -= 1
+
+        return current_head.value
+
+    """Wraps the given value in a ListNode and inserts it
+    as the new tail of the list."""
     def add_to_tail(self, value):
         new_node = ListNode(value, None, None)
         self.length += 1
@@ -120,5 +148,56 @@ class DoublyLinkedList:
         else:
             self.head = new_node
             self.tail = new_node
+
+    """Removes the tail node and returns the value stored
+    in it"""
+    def remove_from_tail(self):
+        # Check if there is a tail
+        if self.tail is None:
+            return None
+
+        # Store the current tail
+        current_tail = self.tail
+
+        # If there's at least two nodes
+        if self.tail.prev:
+            self.tail = self.tail.prev
+            self.tail.next = None
+
+        # If there's only one node
+        else:
+            self.tail = None
+            self.head = None
+
+        self.length -= 1
+
+        return current_tail.value
+
+    """Takes a reference to a node in the list and moves it
+    to the front of the list, shifting all other list nodes down"""
+    def move_to_front(self, node):
+        # Check if it's already at the front
+        if node == self.head:
+            return None
+
+        # Remove it from the list
+        self.delete(node)
+
+        # Add it to the head
+        self.add_to_head(node.value)
+
+
+    """Takes a reference to a node in the list and moves it
+    to the end of the list, shifting all other list nodes up"""
+    def move_to_end(self, node):
+        # Check if it's already at the end
+        if node == self.tail:
+            return None
+
+        # Remove it from the list
+        self.delete(node)
+
+        # Add it the the tail
+        self.add_to_tail(node.value)
 
 
