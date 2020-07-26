@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "target": "esnext",
+    "target": "ES2019",
+    "module": "commonjs",
     "watch": true,
-    "lib": ["dom", "es2017"]
+    "lib": ["ES2019"]
   }
 }
