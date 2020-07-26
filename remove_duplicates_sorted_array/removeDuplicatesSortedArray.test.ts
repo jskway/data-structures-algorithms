@@ -1,4 +1,4 @@
-const removeDuplicates = require("./removeDuplicatesSortedArray.js");
+import { removeDuplicates } from "./removeDuplicatesSortedArray";
 
 const nums = [1, 1, 2];
 const nums2 = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];

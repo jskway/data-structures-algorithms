@@ -1,4 +1,4 @@
-const removeDuplicates = (nums) => {
+export const removeDuplicates = (nums: number[]): number => {
   let idx = 0;
 
   while (idx < nums.length - 1) {
@@ -8,8 +8,5 @@ const removeDuplicates = (nums) => {
       idx++;
     }
   }
-
   return nums.length;
 };
-
-module.exports = removeDuplicates;
