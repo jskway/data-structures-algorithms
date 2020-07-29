@@ -1,21 +1,21 @@
 {
-  "name": "coding-challenges",
+  "name": "data-structures-algorithms",
   "version": "1.0.0",
-  "description": "Coding challenges and solutions",
+  "description": "A collection of data structures and algorithms in Python and TypeScript",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jskway/coding-challenges.git"
+    "url": "git+https://github.com/jskway/data-structures-algorithms.git"
   },
   "author": "Jack Kim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jskway/coding-challenges/issues"
+    "url": "https://github.com/jskway/data-structures-algorithms/issues"
   },
-  "homepage": "https://github.com/jskway/coding-challenges#readme",
+  "homepage": "https://github.com/jskway/data-structures-algorithms#readme",
   "devDependencies": {
     "@types/jest": "^26.0.7",
     "jest": "^26.1.0",
