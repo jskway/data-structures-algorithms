@@ -13,9 +13,9 @@
   </a>
 </p>
 
-> A collection of data stuctures and algorithms in Python and TypeScript.
+> A collection of data structures and algorithms in Python and TypeScript.
 
-### 🏠 [Homepage](https://github.com/jskway/coding-challenges#readme)
+### 🏠 [Homepage](https://github.com/jskway/data-structures-algorithms#readme)
 
 ## Author
 
