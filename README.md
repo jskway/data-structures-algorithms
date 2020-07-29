@@ -13,7 +13,7 @@
   </a>
 </p>
 
-> A collection of data stuctures and algorithms in Python and JavaScript.
+> A collection of data stuctures and algorithms in Python and TypeScript.
 
 ### 🏠 [Homepage](https://github.com/jskway/coding-challenges#readme)
 
@@ -25,8 +25,10 @@
 - Twitter: [@jskway](https://twitter.com/jskway)
 - LinkedIn: [@jackskim](https://linkedin.com/in/jackskim)
 
-## Index
+## Data Structures
 
-### Algorithms
+[Doubly Linked List](./doubly_linked_list)
 
-[Remove Duplicates from Sorted Array](./remove_duplicates_sorted_array/index.md)
+## Algorithms
+
+[Remove Duplicates from Sorted Array](./remove_duplicates_sorted_array)
