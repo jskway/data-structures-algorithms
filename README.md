@@ -11,6 +11,12 @@
   <a href="https://github.com/jskway/data-structures-algorithms/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/jskway/data-structures-algorithms" />
   </a>
+  <a href="https://codeclimate.com/github/jskway/data-structures-algorithms/maintainability">
+    <img src="https://api.codeclimate.com/v1/badges/c84997005750da1009ea/maintainability" />
+  </a>
+  <a href="https://codeclimate.com/github/jskway/data-structures-algorithms/test_coverage">
+    <img src="https://api.codeclimate.com/v1/badges/c84997005750da1009ea/test_coverage" />
+  </a>
 </p>
 
 > A collection of data structures and algorithms in Python and TypeScript.
