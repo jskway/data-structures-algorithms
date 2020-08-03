@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "coverage": "CI=true npm test --coverage --watchAll=false"
+    "coverage": "jest --coverage --watchAll=false"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,14 @@
     "jest": "^26.1.0",
     "ts-jest": "^26.1.3",
     "typescript": "^3.9.7"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{ts,js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**",
+      "!**/coverage/**",
+      "!**/assets/**"
+    ]
   }
 }
