@@ -32,7 +32,7 @@ jobs:
           node-version: "12"
 
       # Run the NPM ci command before proceeding
-      - run: npm ci
+      - run: npm ci --production
 
       # A GitHub action for running tests and publishing coverage
       - uses: paambaati/codeclimate-action@v2.4.0
