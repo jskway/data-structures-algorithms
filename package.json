@@ -4,7 +4,8 @@
   "description": "A collection of data structures and algorithms in Python and TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "CI=true npm test --coverage --watchAll=false"
   },
   "repository": {
     "type": "git",
