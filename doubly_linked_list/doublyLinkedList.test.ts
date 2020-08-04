@@ -119,9 +119,6 @@ describe("DoublyLinkedList tests", () => {
   });
 
   test("Move to front", () => {
-    // Reset the DLL to one node, with value: 1
-    dll = new DoublyLinkedList(node);
-
     dll.addToTail(3);
     expect(dll.head.value).toEqual(1);
     expect(dll.tail.value).toEqual(3);
@@ -139,9 +136,6 @@ describe("DoublyLinkedList tests", () => {
   });
 
   test("delete", () => {
-    // Reset the DLL to one node, with value: 1
-    dll = new DoublyLinkedList(node);
-
     dll.delete(node);
     expect(dll.head).toBeNull();
     expect(dll.head).toBeNull();
