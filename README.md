@@ -34,6 +34,7 @@
 ## Data Structures
 
 [Doubly Linked List](./doubly_linked_list)
+[Queue](./queue)
 
 ## Algorithms
 

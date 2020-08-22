@@ -1,16 +1,37 @@
 # Doubly Linked Lists
 
-- The `DoublyLinkedList` class itself should have the methods: `add_to_head`, `add_to_tail`, `remove_from_head`, `remove_from_tail`, `move_to_front`, `move_to_end`, `delete`, and `get_max`.
-  - `add_to_head` replaces the head of the list with a new value that is passed in.
-  - `add_to_tail` replaces the tail of the list with a new value that is passed in.
-  - `remove_from_head` removes the head node and returns the value stored in it.
-  - `remove_from_tail` removes the tail node and returns the value stored in it.
-  - `move_to_front` takes a reference to a node in the list and moves it to the front of the list, shifting all other list nodes down.
-  - `move_to_end` takes a reference to a node in the list and moves it to the end of the list, shifting all other list nodes up.
-  - `delete` takes a reference to a node in the list and removes it from the list. The deleted node's `previous` and `next` pointers should point to each afterwards.
-  - `get_max` returns the maximum value in the list.
-- The `head` property is a reference to the first node and the `tail` property is a reference to the last node.
+A **linked list** organized items sequentially, with each item storing a pointer
+to the next one.
 
-![Image of Doubly Linked List](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)
+In a basic linked list, each item stores a pointer to the next element.
 
-Source: [Lambda School Repo](https://github.com/LambdaSchool/Data-Structures#doubly-linked-lists)
+In a **doubly linked list**, items have pointers to the next _and the previous_
+nodes. Doubly linked lists allow us to traverse our list backwards.
+
+An item in a linked list is called a **node**. The first node is called the
+**head**. The last node is called the **tail**.
+
+<img style="width:500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png" alt="Image of Queue">
+
+### Strengths
+
+- **Fast operators on the ends**. Adding elements at either the head or tail of
+  a linked list is _O(1)_. Removing the first element is also _O(1)_.
+- **Flexible size**. There's no need to specify a fixed number of items to
+  store when creating a linked list. You can keep adding items as long as you
+  have memory.
+
+### Weaknesses
+
+- **Costly lookups, inserts and deletes.** To access, insert or modify an item
+  in a linked list, you have to take _O(n)_ time to traverse from the head of
+  the list to the _nth_ item.
+
+|               | Worst Case |
+| ------------- | ---------- |
+| **_space_**   | _O(n)_     |
+| **_prepend_** | _O(1)_     |
+| **_append_**  | _O(1)_     |
+| **_lookup_**  | _O(n)_     |
+| **_insert_**  | _O(n)_     |
+| **_delete_**  | _O(n)_     |
