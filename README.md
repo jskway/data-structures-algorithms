@@ -37,7 +37,8 @@
 
 [Binary Search Tree](./binary_search_tree)  
 [Doubly Linked List](./doubly_linked_list)  
-[Queue](./queue)
+[Queue](./queue)  
+[Stack](./stack)  
 
 ## Algorithms
 
