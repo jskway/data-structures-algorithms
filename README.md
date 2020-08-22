@@ -35,10 +35,10 @@
 
 ## Data Structures
 
-[Binary Search Tree](./binary_search_tree)
-[Doubly Linked List](./doubly_linked_list)
+[Binary Search Tree](./binary_search_tree)  
+[Doubly Linked List](./doubly_linked_list)  
 [Queue](./queue)
 
 ## Algorithms
 
-[Remove Duplicates from Sorted Array](./remove_duplicates_sorted_array)
+[Remove Duplicates from Sorted Array](./remove_duplicates_sorted_array)  
