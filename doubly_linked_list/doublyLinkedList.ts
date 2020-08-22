@@ -1,14 +1,14 @@
 interface Node {
   value: any;
-  prev: Node | null;
-  next: Node | null;
+  prev?: Node;
+  next?: Node;
   delete: Function;
 }
 
 interface DLL {
-  head: Node | null;
-  tail: Node | null;
-  length: number | null;
+  head?: Node;
+  tail?: Node;
+  length?: number;
 }
 
 export class ListNode implements Node {
@@ -45,11 +45,11 @@ export class ListNode implements Node {
 }
 
 export class DoublyLinkedList implements DLL {
-  public head: Node | null;
-  public tail: Node | null;
-  public length: number;
+  public head?: Node;
+  public tail?: Node;
+  public length?: number;
 
-  constructor(node: Node | null) {
+  constructor(node: Node = null) {
     this.head = node;
     this.tail = node;
     this.length = 0;
@@ -59,7 +59,7 @@ export class DoublyLinkedList implements DLL {
   }
 
   addToHead(value) {
-    const newNode = new ListNode(value, null, null);
+    const newNode = new ListNode(value);
 
     if (this.head) {
       newNode.next = this.head;
