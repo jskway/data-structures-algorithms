@@ -31,9 +31,11 @@
 - Twitter: [@jskway](https://twitter.com/jskway)
 - LinkedIn: [@jackskim](https://linkedin.com/in/jackskim)
 
+#### 🚧 Work in progress! 🚧
+
 ## Data Structures
 
-[Doubly Linked List](./doubly_linked_list)
+[Doubly Linked List](./doubly_linked_list)  
 [Queue](./queue)
 
 ## Algorithms
