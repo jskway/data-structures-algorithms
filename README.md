@@ -37,6 +37,7 @@
 
 [Binary Search Tree](./binary_search_tree)  
 [Doubly Linked List](./doubly_linked_list)  
+[LRU Cache](./lru_cache)  
 [Queue](./queue)  
 [Singly Linked List](./singly_linked_list)  
 [Stack](./stack)
