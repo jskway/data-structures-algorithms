@@ -1,14 +1,14 @@
 interface Node {
   value: any;
-  prev?: Node;
-  next?: Node;
+  prev: Node;
+  next: Node;
   delete: Function;
 }
 
 interface DLL {
-  head?: Node;
-  tail?: Node;
-  length?: number;
+  head: Node;
+  tail: Node;
+  length: number;
 }
 
 export class ListNode implements Node {
@@ -45,9 +45,9 @@ export class ListNode implements Node {
 }
 
 export class DoublyLinkedList implements DLL {
-  public head?: Node;
-  public tail?: Node;
-  public length?: number;
+  public head: Node = null;
+  public tail: Node = null;
+  public length: number;
 
   constructor(node: Node = null) {
     this.head = node;
