@@ -11,7 +11,7 @@ nodes. Doubly linked lists allow us to traverse our list backwards.
 An item in a linked list is called a **node**. The first node is called the
 **head**. The last node is called the **tail**.
 
-<img style="width:500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png" alt="Image of Queue">
+<img style="width:500" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png" alt="Image of Doubly Linked List">
 
 ### Strengths
 
