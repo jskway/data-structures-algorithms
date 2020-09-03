@@ -11,3 +11,5 @@ the cards:
 4. Set the card to the right of the current 'card to swap' as the new 'card to
    swap'
 5. Repeat steps 2 through 4 until the last card becomes the 'card to swap'
+
+The time complexity for selection sort is **O(n^2)**
