@@ -44,5 +44,5 @@
 
 ## Algorithms
 
-[Remove Duplicates from Sorted Array](./remove_duplicates_sorted_array)
+[Remove Duplicates from Sorted Array](./remove_duplicates_sorted_array)  
 [Selection Sort](./selection_sort)
