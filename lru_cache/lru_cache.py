@@ -45,22 +45,15 @@ class LRUCache:
     def set(self, key, value):
         node = self.storage.get(key)
 
-        if node is not None:
+        if node is None:
+            if self.limit == len(self.storage):
+                self.storage.pop(self.DLL.tail.value[0])
+                self.DLL.remove_from_tail()
+
+            self.DLL.add_to_head((key, value))
+            self.storage[key] = self.DLL.head
+        else:
             node.value = (key, value)
             self.DLL.move_to_front(node)
-
-        elif len(self.DLL) == self.limit:
-            self.storage.pop(self.DLL.tail.value[0])
-
-            self.DLL.remove_from_tail()
-
-            self.DLL.add_to_head((key, value))
-
-            self.storage.setdefault(key, self.DLL.head)
-
-        else:
-            self.DLL.add_to_head((key, value))
-            self.storage.setdefault(key, self.DLL.head)
-
 
 
