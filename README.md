@@ -44,5 +44,6 @@
 
 ## Algorithms
 
+[Bubble Sort](./bubble_sort)  
 [Remove Duplicates from Sorted Array](./remove_duplicates_sorted_array)  
 [Selection Sort](./selection_sort)
