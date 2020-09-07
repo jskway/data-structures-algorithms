@@ -47,5 +47,6 @@
 [Bubble Sort](./bubble_sort)  
 [Remove Duplicates from Sorted Array](./remove_duplicates_sorted_array)  
 [Merge Sort](./merge_sort)  
+[Moving Zeroes](./moving_zeroes)  
 [Selection Sort](./selection_sort)  
 [Single Number](./single_number)
