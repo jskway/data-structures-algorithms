@@ -50,4 +50,5 @@
 [Moving Zeroes](./moving_zeroes)  
 [Product of All Other Numbers](./product_of_all_other_numbers)  
 [Selection Sort](./selection_sort)  
-[Single Number](./single_number)
+[Single Number](./single_number)  
+[Sliding Window Max](./sliding_window_max)  
