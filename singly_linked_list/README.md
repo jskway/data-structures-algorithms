@@ -1,9 +1,18 @@
 # Singly Linked Lists
 
-A **linked list** organized items sequentially, with each item storing a pointer
-to the next one.
+A **linked list** is a linear data structure which links all the separated
+elements together with pointers.
 
-In a basic linked list, each item stores a pointer to the next element.
+In a singly linked list, each item stores a value and a pointer to the next item.
+
+Eg.
+
+```python
+class ListNode:
+  def __init__(self, value, next=None):
+    self.value = value
+    self.next = next
+```
 
 An item in a linked list is called a **node**. The first node is called the
 **head**. The last node is called the **tail**.
@@ -23,6 +32,8 @@ An item in a linked list is called a **node**. The first node is called the
 - **Costly lookups, inserts and deletes.** To access, insert or modify an item
   in a linked list, you have to take _O(n)_ time to traverse from the head of
   the list to the _nth_ item.
+
+### Performance
 
 |               | Worst Case |
 | ------------- | ---------- |

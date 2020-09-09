@@ -1,12 +1,20 @@
 # Doubly Linked Lists
 
-A **linked list** organized items sequentially, with each item storing a pointer
-to the next one.
+A **linked list** is a linear data structure which links all the separated
+elements together with pointers.
 
-In a basic linked list, each item stores a pointer to the next element.
+In a **doubly linked list**, items have pointers to the next and previous
+items. Doubly linked lists allow us to traverse our list backwards.
 
-In a **doubly linked list**, items have pointers to the next _and the previous_
-nodes. Doubly linked lists allow us to traverse our list backwards.
+Eg.
+
+```python
+class ListNode:
+  def __init__(self, value, next=None, prev=None):
+    self.value = value
+    self.next = next
+    self.prev = prev
+```
 
 An item in a linked list is called a **node**. The first node is called the
 **head**. The last node is called the **tail**.
@@ -26,6 +34,8 @@ An item in a linked list is called a **node**. The first node is called the
 - **Costly lookups, inserts and deletes.** To access, insert or modify an item
   in a linked list, you have to take _O(n)_ time to traverse from the head of
   the list to the _nth_ item.
+
+### Performance
 
 |               | Worst Case |
 | ------------- | ---------- |
