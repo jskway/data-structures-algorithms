@@ -3,6 +3,6 @@
     "target": "ES2019",
     "module": "commonjs",
     "watch": true,
-    "lib": ["ES2019"]
+    "lib": ["ES2020"]
   }
 }
