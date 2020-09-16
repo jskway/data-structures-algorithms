@@ -45,6 +45,7 @@
 
 ## Algorithms
 
+[Binary Search](./algorithms/binary_search)  
 [Bubble Sort](./algorithms/bubble_sort)  
 [Remove Duplicates from Sorted Array](./algorithms/remove_duplicates_sorted_array)  
 [Merge Sort](./algorithms/merge_sort)  
