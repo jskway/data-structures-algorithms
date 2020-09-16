@@ -35,21 +35,21 @@
 
 ## Data Structures
 
-[Binary Search Tree](./binary_search_tree)  
-[Doubly Linked List](./doubly_linked_list)  
-[Hash Table](./hash_table)  
-[LRU Cache](./lru_cache)  
-[Queue](./queue)  
-[Singly Linked List](./singly_linked_list)  
-[Stack](./stack)
+[Binary Search Tree](./data_structures/binary_search_tree)  
+[Doubly Linked List](./data_structures/doubly_linked_list)  
+[Hash Table](./data_structures/hash_table)  
+[LRU Cache](./data_structures/lru_cache)  
+[Queue](./data_structures/queue)  
+[Singly Linked List](./data_structures/singly_linked_list)  
+[Stack](./data_structures/stack)
 
 ## Algorithms
 
-[Bubble Sort](./bubble_sort)  
-[Remove Duplicates from Sorted Array](./remove_duplicates_sorted_array)  
-[Merge Sort](./merge_sort)  
-[Moving Zeroes](./moving_zeroes)  
-[Product of All Other Numbers](./product_of_all_other_numbers)  
-[Selection Sort](./selection_sort)  
-[Single Number](./single_number)  
-[Sliding Window Max](./sliding_window_max)  
+[Bubble Sort](./algorithms/bubble_sort)  
+[Remove Duplicates from Sorted Array](./algorithms/remove_duplicates_sorted_array)  
+[Merge Sort](./algorithms/merge_sort)  
+[Moving Zeroes](./algorithms/moving_zeroes)  
+[Product of All Other Numbers](./algorithms/product_of_all_other_numbers)  
+[Selection Sort](./algorithms/selection_sort)  
+[Single Number](./algorithms/single_number)  
+[Sliding Window Max](./algorithms/sliding_window_max)
