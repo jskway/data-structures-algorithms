@@ -53,4 +53,5 @@
 [Product of All Other Numbers](./algorithms/product_of_all_other_numbers)  
 [Selection Sort](./algorithms/selection_sort)  
 [Single Number](./algorithms/single_number)  
-[Sliding Window Max](./algorithms/sliding_window_max)
+[Sliding Window Max](./algorithms/sliding_window_max)  
+[Word Count](./algorithms/word_count)  
