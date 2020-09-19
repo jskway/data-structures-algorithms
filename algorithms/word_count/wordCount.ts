@@ -1,4 +1,4 @@
-export const wordCount = (s: string) => {
+export const wordCount = (s: string): object => {
   const counts = {};
 
   // Regex expression to select all characters
@@ -9,9 +9,9 @@ export const wordCount = (s: string) => {
 
   s = s.toLowerCase();
 
-  const stringList = s.split(" ");
+  const wordList = s.split(" ");
 
-  stringList.forEach((word) => {
+  wordList.forEach((word) => {
     if (word.length === 0) {
       return;
     }
