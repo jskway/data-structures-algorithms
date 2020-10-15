@@ -49,6 +49,7 @@
 [Bubble Sort](./algorithms/bubble_sort)  
 [Remove Duplicates from Sorted Array](./algorithms/remove_duplicates_sorted_array)  
 [Merge Sort](./algorithms/merge_sort)  
+[Merging Ranges](./algorithms/merging_ranges)  
 [Moving Zeroes](./algorithms/moving_zeroes)  
 [Product of All Other Numbers](./algorithms/product_of_all_other_numbers)  
 [Selection Sort](./algorithms/selection_sort)  
