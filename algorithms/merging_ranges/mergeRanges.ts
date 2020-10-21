@@ -1,4 +1,6 @@
-export const mergeRanges = (meetings) => {
+type NumVal = number[] | NumVal[];
+
+export const mergeRanges = (meetings: NumVal): NumVal => {
   // Sort by start time
   meetings.sort((a, b) => a[0] - b[0]);
 
