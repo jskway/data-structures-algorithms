@@ -52,6 +52,7 @@
 [Merging Ranges](./algorithms/merging_ranges)  
 [Moving Zeroes](./algorithms/moving_zeroes)  
 [Product of All Other Numbers](./algorithms/product_of_all_other_numbers)  
+[Reverse String In-Place](./algorithms/reverse_string_in_place)  
 [Selection Sort](./algorithms/selection_sort)  
 [Single Number](./algorithms/single_number)  
 [Sliding Window Max](./algorithms/sliding_window_max)  
