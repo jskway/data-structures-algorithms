@@ -47,6 +47,7 @@
 
 [Binary Search](./algorithms/binary_search)  
 [Bubble Sort](./algorithms/bubble_sort)  
+[Flatten Array](./algorithms/flatten_array)  
 [Remove Duplicates from Sorted Array](./algorithms/remove_duplicates_sorted_array)  
 [Merge Sort](./algorithms/merge_sort)  
 [Merging Ranges](./algorithms/merging_ranges)  
@@ -56,4 +57,4 @@
 [Selection Sort](./algorithms/selection_sort)  
 [Single Number](./algorithms/single_number)  
 [Sliding Window Max](./algorithms/sliding_window_max)  
-[Word Count](./algorithms/word_count)  
+[Word Count](./algorithms/word_count)
