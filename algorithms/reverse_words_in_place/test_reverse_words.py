@@ -2,7 +2,7 @@ import unittest
 from reverse_words import reverse_words
 
 class Test(unittest.TestCase):
-    def test_reverses_word_one_space(self):
+    def test_reverses_words_one_space(self):
         message = ['h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd']
         reverse_words(message)
 
@@ -10,7 +10,7 @@ class Test(unittest.TestCase):
 
         self.assertEqual(message, expected)
 
-    def test_reverses_word_three_spaces(self):
+    def test_reverses_words_three_spaces(self):
         message = ['h', 'i', ' ', 'i', 'm', ' ', 'j', 'a', 'c', 'k']
         reverse_words(message)
 
@@ -18,7 +18,7 @@ class Test(unittest.TestCase):
 
         self.assertEqual(message, expected)
 
-    def test_no_space(self):
+    def test_one_word_no_space(self):
         message = ['t', 'e', 's', 't', 'i', 'n', 'g']
 
         reverse_words(message)
